@@ -1,0 +1,54 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  font-family: sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 100px;
+  gap: 25px;
+}
+
+.screen {
+  height: 80px;
+  width: 600px;
+  background-color: white;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.style-button-1 {
+  height: 80px;
+  font-size: 25px;
+}
+
+.style-button-1:link,
+.style-button-1:visited {
+  height: 100px;
+  font-size: 20px;
+  border-radius: 2px;
+  border: none;
+}
+
+.style-button-1:hover,
+.style-button-1:active {
+  background-color: #ddd;
+  border: solid 2px #ddd;
+  border-radius: 2px;
+}
+
+.style-special {
+  padding: 10px 10px;
+}
+
+.decimals {
+  padding-top: 20px;
+}
